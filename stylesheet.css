@@ -1,14 +1,28 @@
+/*This ist the first version to style the website "lazydata" */
 
+/*area of the header*/
 .header{
    text-align: center;
     font-family: "Microsoft Sans Serif";
-
     border:2px grey;
 }
 
+/*first headline*/
 .h1{
     color:black ;
 }
+
+/*the image on the landing page*/
+.stylesheet{
+    position:relative;
+}
+
+/*text on the image*/
+.text {
+    position: absolute;
+}
+
+
 
 
 
