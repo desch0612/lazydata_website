@@ -55,13 +55,14 @@ body{
     color:black ;
 }
 
+/*landing page*/
+
 /*the image on the landing page*/
 .stylesheet{
     position:relative;
 }
 
-/*text on the image*/
-.text {
+
 /*style of the text from the github link*/
 .text_github_link{
     position: relative;
@@ -70,6 +71,7 @@ body{
 /*style of the header-text*/
 .header{
     position: absolute;
+    color: white;
     font-family: "American Typewriter";
 }
 
