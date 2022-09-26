@@ -5,6 +5,7 @@ body{
     margin: 0;
 }
 
+/* =============== projects.html =====================*/
 /*area of the header*/
 .p-header{
     background-color: rgb(17, 20, 32);
@@ -34,6 +35,9 @@ body{
 }
 
 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
     color: rgb(192, 192, 192);;
     background-color: rgb(5, 4, 15);
@@ -54,8 +58,10 @@ body{
 .h1{
     color:black ;
 }
+/* =================================================*/
 
-/*landing page*/
+
+/*=============== landing page =====================*/
 
 /*the image on the landing page*/
 .stylesheet{
@@ -77,6 +83,8 @@ body{
     display: flex;
     align-items: center;
 }
+
+/*==================================================*/
 
 
 
