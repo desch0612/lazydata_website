@@ -36,9 +36,9 @@ body{
 .box{
     padding: 10px;
     color: rgb(192, 192, 192);;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(5, 4, 15);
     border-style: solid;
-    border-color: rgb(128, 128, 128);
+    border-color: rgb(43, 43, 43);
     border-width: 3px;
     border-radius: 10px;
     width: auto;
