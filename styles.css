@@ -7,7 +7,7 @@ body{
 
 /*area of the header*/
 .p-header{
-    background-color: rgb(47, 56, 56);
+    background-color: rgb(17, 20, 32);
     padding: 10px 20px;
     color: rgb(192, 192, 192);
 }
@@ -18,7 +18,7 @@ body{
 }
 
 .main-section{
-    background-color: rgb(47, 56, 56);
+    background-color: rgb(17, 20, 32);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,8 +60,6 @@ body{
     position:relative;
 }
 
-/*text on the image*/
-.text {
 /*style of the text from the github link*/
 .text_github_link{
     position: relative;
