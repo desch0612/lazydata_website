@@ -66,6 +66,10 @@ body{
 /*the image on the landing page*/
 .stylesheet{
     position:relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 /*style of the text from the github link*/
@@ -79,12 +83,6 @@ body{
     color: white;
 }
 
-.image{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
 
 /*==================================================*/
 
