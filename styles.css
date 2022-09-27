@@ -78,16 +78,15 @@ body{
 }
 
 /*style of the text from the github link*/
-.text_github_link{
+.main_header{
     position: absolute;
+    display: flex;
     color: white;
+    left: 900px;
+    font-size: 40px;
 }
 
-/*style of the header-text*/
-.header{
-    position: relative;
-    color: white;
-}
+
 
 
 /*==================================================*/
