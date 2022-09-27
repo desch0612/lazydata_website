@@ -80,6 +80,7 @@ body{
 /*style of the text from the github link*/
 .text_github_link{
     position: absolute;
+    color: white;
 }
 
 /*style of the header-text*/
