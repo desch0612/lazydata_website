@@ -70,7 +70,7 @@ body{
 
 /*the image on the landing page*/
 .stylesheet{
-    position:relative;
+    position: absolute;
     display: flex;
     align-items: center;
     width: 100%;
@@ -79,12 +79,12 @@ body{
 
 /*style of the text from the github link*/
 .text_github_link{
-    position: relative;
+    position: absolute;
 }
 
 /*style of the header-text*/
 .header{
-    position: absolute;
+    position: relative;
     color: white;
 }
 
