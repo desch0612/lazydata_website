@@ -71,10 +71,13 @@ body{
 /*the image on the landing page*/
 .stylesheet{
     position: absolute;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     width: 100%;
-    height: auto;
+    margin-left: 75%;
+    display: block;
+
+
 }
 
 /*style of the text from the github link*/
