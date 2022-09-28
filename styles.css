@@ -68,17 +68,7 @@ body{
 
 /*=============== landing page =====================*/
 
-/*the image on the landing page*/
-.stylesheet{
-    position: absolute;
-    /*display: flex;*/
-    align-items: center;
-    width: 100%;
-    margin-left: 75%;
-    display: block;
 
-
-}
 
 /*style of the text from the github link*/
 .main_header{
