@@ -10,8 +10,8 @@
         <title>lazydata</title>
         <link rel = "stylesheet" type = "text/css" href="styles.css">
     </head>
-<body>
 
+<body>
 <! -- navbar --!>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -27,52 +27,103 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Über Uns</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Impressum</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<! -- the headline above the cards. --!>
-<h5 class = h5> Das wichtigste im Überblick: </h5>
 
-<! -- card1 --!>
-<div class="card">
-    <div class="card-header">
-        Was wir machen
+<! -- the cards --!>
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">lazydata</h1>
+            <p class="lead text-muted"> Wir sind zwei Softwareentwickler, die Ihr Hobby zum Beruf gemacht haben.
+            Für unsere Kunden zugeschnittene Individuallösungen im Bereich der Webentwicklung und Datenanalyse ist
+            unsere Herzensangelenheit. </p>
+            <p>
+                <a href="#" class="btn btn-primary my-2"> Projekte </a>
+                <a href="#" class="btn btn-secondary my-2"> Über Uns</a>
+            </p>
+        </div>
     </div>
-    <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text"> Wir haben uns im Wirtschaftsinformatik Studium kennengelernt und setzen seitdem
-        Open-Source Projekte im Bereich der Programmierung um und haben unser Hobby zum Beruf gemacht. <br>
-        Wir beschäftigen uns mit Algorithmen, Datenalyse und Webentwicklung. Gerne setzen wir auch Ihre Projekte
-        nach Ihren Wünschen um. </p>
-        <a href="#" class="btn btn-primary"> Unsere Projekte </a>
-    </div>
-</div>
-<! -- card2 --!>
-<div class="card">
-    <div class="card-header">
-        Unsere Projekte
-    </div>
-    <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text"> Gerne zeigen Wir Ihnen unsere bisher umgesetzten Projekte, die sowohl zum Download
-        zur Verfügung stehen, als auch auf Github veröffentlicht sind. </p>
-        <a href="#" class="btn btn-primary"> Über Uns </a>
-    </div>
-</div>
+</section>
 
-<! -- card3 --!>
-<div class="card">
-    <div class="card-header">
-        Kontakt
-    </div>
-    <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text"> Gerne können Sie Kontakt mit uns aufnehmen, indem Sie sich einfach über den Button
-        registrieren. </p>
-        <a href="#" class="btn btn-primary"> Kontakt </a>
-    </div>
-</div>
-</body>
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                    <div class="card-body">
+                        <p class="card-text">Dies ist ein Passwort-Manager, welcher Ihre Passwörter lokal auf Ihrem
+                            Computer speichert. Der Quellcode ist OpenSource und vollkommen transparent.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                    <div class="card-body">
+                        <p class="card-text"> </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+    </body>
 </html>
