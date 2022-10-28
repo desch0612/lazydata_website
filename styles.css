@@ -11,24 +11,37 @@ body{
 }
 
 /* =================== landing page ==============================*/
+
+/* project area (Referenzen) */
 .card{
+
     margin: 20px 20px 20px 20px;
+
 }
 
+/* first headline*/
 .h1{
+
     margin: 0px 0px 20px 20px;
     color: rgb(3, 55, 229);
+
 }
 
+/* small headline */
 .h5{
+
     margin: 15px 15px 15px 20px;
+
 }
 
+/* Picture of the bathing sloth.  */
 .sloth_bath{
+
     padding: 5px;
     width: 400px;
 }
 
+/* Picture of the sleeping sloth.  */
 .sleeping_sloth{
 
     padding: 0px;
@@ -39,6 +52,7 @@ body{
     align-items: center;
 }
 
+/* Picture of the sloth in the headline  */
 .sloth{
 
     padding: 0px;
@@ -50,19 +64,23 @@ body{
     align-items: center;
 }
 
+/* the lazydata text above the impressum */
+.impressum_lazydata{
+    margin-top: 125px;
+    margin-left: 550px;
+    font-size: 30px;
+}
+
+/* first impressum (Kontakt)  */
 .impressum{
     margin-top: 10px;
     margin-left: 450px;
     font-size: 20px;
 }
 
+/* second impressum (Impressum) */
 .impressum_2{
     margin-left: 420px;
     font-size: 20px;
 }
 
-.impressum_lazydata{
-    margin-top: 125px;
-    margin-left: 550px;
-    font-size: 30px;
-}
