@@ -10,60 +10,6 @@ body{
 
 }
 
-/* =============== projects.html =====================*/
-/*area of the header*/
-.p-header{
-    background-color: rgb(17, 20, 32);
-    padding: 10px 20px;
-    color: rgb(192, 192, 192);
-}
-
-.headline{
-    padding: 0;
-    margin: 0;
-}
-
-.main-section{
-    background-color: rgb(17, 20, 32);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 0;
-}
-
-.project-list{
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: center;
-    gap: 50px
-}
-
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px;
-    color: rgb(192, 192, 192);;
-    background-color: rgb(5, 4, 15);
-    border-style: solid;
-    border-color: rgb(43, 43, 43);
-    border-width: 3px;
-    border-radius: 10px;
-    width: auto;
-    height: 200px;
-    width: 350px;
-}
-
-.box a{
-    color: darkgrey;
-}
-
-.box p{
-    margin: 0;
-    padding: 0;
-}
-
 /* =================== landing page ==============================*/
 .card{
     margin: 20px 20px 20px 20px;
