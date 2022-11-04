@@ -44,10 +44,9 @@ body{
 
 /* Picture of the sleeping sloth.  */
 .sleeping_sloth{
-
-
     padding: 5px;
     width: 400px;
+    margin: auto
 }
 
 /* Picture of the sloth in the headline  */
