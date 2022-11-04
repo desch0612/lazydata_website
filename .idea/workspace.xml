@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cfa1e1e-07db-425b-b5f6-a625adbd8122" name="Changes" comment="new dsgvo" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lazydata_website" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DqHFuUczsAtHCz9KGnwy5omOTk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dennisschafer/lazydata/Website_Frontend/lazydata_website&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.main.html (1)">
+    <configuration name="main.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lazydata_website/lazydata_website/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lazydata_website/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html (1)" />
+        <item itemvalue="JavaScript Debug.main.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cfa1e1e-07db-425b-b5f6-a625adbd8122" name="Changes" comment="" />
+      <created>1661419593927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661419593927</updated>
+      <workItem from="1661419596689" duration="230000" />
+      <workItem from="1661419840626" duration="30000" />
+      <workItem from="1661419874155" duration="12000" />
+      <workItem from="1661419890652" duration="2192000" />
+      <workItem from="1661938607652" duration="749000" />
+      <workItem from="1662210405603" duration="5477000" />
+      <workItem from="1664010019057" duration="595000" />
+      <workItem from="1664115766685" duration="1064000" />
+      <workItem from="1664180952901" duration="115000" />
+      <workItem from="1664181072373" duration="19220000" />
+      <workItem from="1664369859481" duration="10670000" />
+      <workItem from="1664534253021" duration="13642000" />
+      <workItem from="1665148262872" duration="5856000" />
+      <workItem from="1665494927800" duration="3049000" />
+      <workItem from="1665645642245" duration="598000" />
+      <workItem from="1666254737049" duration="1249000" />
+      <workItem from="1666422591294" duration="12603000" />
+      <workItem from="1666875084852" duration="23792000" />
+      <workItem from="1667411340981" duration="3675000" />
+      <workItem from="1667466343556" duration="8014000" />
+    </task>
+    <task id="LOCAL-00046" summary="change the description of our service.">
+      <created>1666697856913</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1666697856915</updated>
+    </task>
+    <task id="LOCAL-00047" summary="new mission text.">
+      <created>1666698303636</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1666698303636</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add javascript area in the index.html">
+      <created>1666699296400</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666699296400</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add a new image.">
+      <created>1666702520954</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666702520954</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add a new picture.">
+      <created>1666708357264</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666708357273</updated>
+    </task>
+    <task id="LOCAL-00051" summary="new style for the image and deleted the contact area.">
+      <created>1666802338540</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1666802338542</updated>
+    </task>
+    <task id="LOCAL-00052" summary="change the titles in the header.">
+      <created>1666876477525</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1666876477526</updated>
+    </task>
+    <task id="LOCAL-00053" summary="new images.">
+      <created>1666880144209</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1666880144209</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Expanded the text at the bottom of the website a bit. Also changed the display of the images a bit.">
+      <created>1666882428345</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1666882428345</updated>
+    </task>
+    <task id="LOCAL-00055" summary="new images with a sloth.">
+      <created>1666884297619</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884297619</updated>
+    </task>
+    <task id="LOCAL-00056" summary="New pictures added and the imprint at the end of the page. I also changed the design of the images and the imprint.">
+      <created>1666944525855</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944525856</updated>
+    </task>
+    <task id="LOCAL-00057" summary="New impressum with new design.">
+      <created>1666945157615</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945157615</updated>
+    </task>
+    <task id="LOCAL-00058" summary="New text in our introduction at the bottom of the page.">
+      <created>1666945397408</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945397409</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Changed the classes of the images and removed the rocket from the CSS code.">
+      <created>1666945583925</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945583926</updated>
+    </task>
+    <task id="LOCAL-00060" summary="CSS code deleted from the project page.">
+      <created>1666946563705</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1666946563707</updated>
+    </task>
+    <task id="LOCAL-00061" summary="comments for the css code.">
+      <created>1666946823789</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1666946823789</updated>
+    </task>
+    <task id="LOCAL-00062" summary="another text in the headline and a new impressum.">
+      <created>1666947626032</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947626033</updated>
+    </task>
+    <task id="LOCAL-00063" summary="comments in the index.html">
+      <created>1666948512343</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666948512350</updated>
+    </task>
+    <task id="LOCAL-00064" summary="impressum with a black background.">
+      <created>1667048374463</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048374464</updated>
+    </task>
+    <task id="LOCAL-00065" summary="spelling error corrected.">
+      <created>1667120566999</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1667120567000</updated>
+    </task>
+    <task id="LOCAL-00066" summary="new footer.">
+      <created>1667221907853</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1667221907854</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Added terms and conditions and privacy policy in the footer.">
+      <created>1667222264206</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1667222264207</updated>
+    </task>
+    <task id="LOCAL-00068" summary="new footer with data policy.">
+      <created>1667224921404</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1667224921405</updated>
+    </task>
+    <task id="LOCAL-00069" summary="new contact area.">
+      <created>1667224952273</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1667224952274</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Customized the presentation text.">
+      <created>1667225253488</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1667225253489</updated>
+    </task>
+    <task id="LOCAL-00071" summary="lazydata and contact swapped in footer.">
+      <created>1667227329772</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1667227329773</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Added buttons for privacy, imprint and contact in footer.">
+      <created>1667228644977</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1667228644978</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Contact text remove.">
+      <created>1667228717800</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1667228717800</updated>
+    </task>
+    <task id="LOCAL-00074" summary="comments added.">
+      <created>1667228883337</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1667228883338</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Aligned the header area with the footer and added the same buttons.">
+      <created>1667230066196</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230066197</updated>
+    </task>
+    <task id="LOCAL-00076" summary="another text in the info area above.">
+      <created>1667294453997</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1667294453997</updated>
+    </task>
+    <task id="LOCAL-00077" summary="I deleted the old css code which we had used for the old footer.">
+      <created>1667301917970</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1667301917971</updated>
+    </task>
+    <task id="LOCAL-00078" summary="The image of the sleeping sloth adjusted and made with the same CSS code as the bathing sloth. So the design is now responsive.">
+      <created>1667411195282</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411195282</updated>
+    </task>
+    <task id="LOCAL-00079" summary="The image of the sleeping sloth adjusted and made with the same CSS code as the bathing sloth. So the design is now responsive.">
+      <created>1667411271760</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411271760</updated>
+    </task>
+    <task id="LOCAL-00080" summary="test commit.">
+      <created>1667411395781</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411395782</updated>
+    </task>
+    <task id="LOCAL-00081" summary="test commit.">
+      <created>1667411553582</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1667411553582</updated>
+    </task>
+    <task id="LOCAL-00082" summary="test commit.">
+      <created>1667412614155</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412614155</updated>
+    </task>
+    <task id="LOCAL-00083" summary="test commit.">
+      <created>1667464444495</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1667464444496</updated>
+    </task>
+    <task id="LOCAL-00084" summary="test commit.">
+      <created>1667466415152</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1667466415154</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Adopted the design of the bathing sloth with the sleeping sloth. So both images are responsive.">
+      <created>1667466956142</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1667466956142</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Adopted the design">
+      <created>1667467835919</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1667467835920</updated>
+    </task>
+    <task id="LOCAL-00087" summary="another test.">
+      <created>1667467916224</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1667467916224</updated>
+    </task>
+    <task id="LOCAL-00088" summary="another test.">
+      <created>1667468117608</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1667468117609</updated>
+    </task>
+    <task id="LOCAL-00089" summary="The lower text of the web page again adjusted and optimized.">
+      <created>1667480709249</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1667480709251</updated>
+    </task>
+    <task id="LOCAL-00090" summary="The lower text of the web page again adjusted and optimized.">
+      <created>1667555137510</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1667555137512</updated>
+    </task>
+    <task id="LOCAL-00091" summary="dsgvo rules for the website.">
+      <created>1667557567843</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1667557567843</updated>
+    </task>
+    <task id="LOCAL-00092" summary="new impressum">
+      <created>1667558213745</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1667558213746</updated>
+    </task>
+    <task id="LOCAL-00093" summary="deleted impressum and new address in the dsgvo.">
+      <created>1667559507726</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1667559507727</updated>
+    </task>
+    <task id="LOCAL-00094" summary="new dsgvo">
+      <created>1667559684993</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1667559684993</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comments in the index.html" />
+    <MESSAGE value="impressum with a black background." />
+    <MESSAGE value="spelling error corrected." />
+    <MESSAGE value="new footer." />
+    <MESSAGE value="Added terms and conditions and privacy policy in the footer." />
+    <MESSAGE value="new footer with data policy." />
+    <MESSAGE value="new contact area." />
+    <MESSAGE value="Customized the presentation text." />
+    <MESSAGE value="lazydata and contact swapped in footer." />
+    <MESSAGE value="Added buttons for privacy, imprint and contact in footer." />
+    <MESSAGE value="Contact text remove." />
+    <MESSAGE value="comments added." />
+    <MESSAGE value="Aligned the header area with the footer and added the same buttons." />
+    <MESSAGE value="another text in the info area above." />
+    <MESSAGE value="I deleted the old css code which we had used for the old footer." />
+    <MESSAGE value="The image of the sleeping sloth adjusted and made with the same CSS code as the bathing sloth. So the design is now responsive." />
+    <MESSAGE value="test commit." />
+    <MESSAGE value="Adopted the design of the bathing sloth with the sleeping sloth. So both images are responsive." />
+    <MESSAGE value="Adopted the design" />
+    <MESSAGE value="another test." />
+    <MESSAGE value="The lower text of the web page again adjusted and optimized." />
+    <MESSAGE value="dsgvo rules for the website." />
+    <MESSAGE value="new impressum" />
+    <MESSAGE value="deleted impressum and new address in the dsgvo." />
+    <MESSAGE value="new dsgvo" />
+    <option name="LAST_COMMIT_MESSAGE" value="new dsgvo" />
+  </component>
+</project>
