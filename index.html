@@ -13,9 +13,30 @@
         <link rel = "stylesheet" type = "text/css" href="styles.css">
 
         <!-- JavaScript functions -->
+        <link rel="stylesheet" type="text/css" href="//assets.ekiwi.de/cookie/cookieconsent.min.css" />
+        <script src="//assets.ekiwi.de/cookie/cookieconsent.min.js"></script>
         <script>
-
+            window.addEventListener("load", function(){
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#edeff5",
+                            "text": "#838391"
+                        },
+                        "button": {
+                            "background": "#4b81e8"
+                        }
+                    },
+                    "theme": "edgeless",
+                    "content": {
+                        "message": "Wir verwenden Cookies auf der Website, um Ihren Besuch effizienter zu machen und Ihnen Benutzerfreundlichkeit bieten zu können.",
+                        "dismiss": "OK",
+                        "link": "Informationen",
+                        "href": href= "Datenschutzerklaerung.html"
+                    }
+                })});
         </script>
+
     </head>
 <body>
 
