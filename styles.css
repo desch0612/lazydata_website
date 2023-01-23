@@ -16,6 +16,8 @@ body{
 .card{
 
     margin: 20px 20px 20px 20px;
+    float: left;
+
 
 }
 
@@ -59,7 +61,6 @@ body{
 
 /* Picture of the sloth in the headline  */
 .sloth{
-
     padding: 0px;
     width: 40px;
     display: flex;
@@ -88,12 +89,13 @@ body{
     font-size: 20px;
 }
 
-.text{
-    color: white;
+/* the page "impressum */
+.text_impressum_page{
     margin-left: 10px;
 }
-/* the page "impressum */
 
-.text_impressum_page{
-    margin-left: 25px;
+/* help area */
+[data-help]{
+    cursor: pointer;
 }
+
