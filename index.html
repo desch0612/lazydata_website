@@ -19,7 +19,7 @@
         <script src="https://kit.fontawesome.com/02c50ea2c7.js" crossorigin="anonymous"></script>
         <meta charset="UTF-8">
         <title>lazydata</title>
-        <link rel = "stylesheet" type = "text/css" href="styles.css"
+        <link rel = "stylesheet" type = "text/css" href="styles.css">
     </head>
 <body>
 
@@ -52,8 +52,9 @@
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">lazydata</h1>
-            <p class="lead text-muted"> Wir sind zwei Softwareentwickler, die Ihr Hobby zum Beruf gemacht haben.
-                Mit dieser Seite möchten wir Unsere OpenSource Projekte zum Download bereitstellen und präsentieren.
+            <p class="lead text-muted"> Hi, wir sind Tobias u. Dennis und wir haben unser Hobby zum Beruf gemacht.
+                Wir programmieren für unser Leben gern und setzen ganz unterschiedliche Software-Projekte um, die wir
+                auf dieser Seite präsentieren wollen!
           </p>
         </div>
     </div>
@@ -64,69 +65,76 @@
     <div class="b-example-divider"></div>
     <div class="container px-4 py-5">
         <h2 class="pb-2 border-bottom"> Referenzen </h2>
-    <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="card-img-top pic-pw-manager" src="tired_man.jpg">
-                    <div class="card-body">
-                        <h4>Passwortmanager</h4>
-                        <p class="card-text">Dies ist ein Passwort-Manager, welcher Ihre Passwörter lokal auf Ihrem
-                            Computer speichert. Damit behalten Sie immer den Überblick.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" onclick="window.open('https://github.com/desch0612/password_manager','_blank')" class="btn btn-sm btn-outline-secondary">GitHub</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Passwortmanager</h5>
+                <h6 class="card-subtitle mb-2 text-muted">absolut sicher!</h6>
+                <p class="card-text">Ein sicherer Passwortmanager, womit die Passwörter lokal auf dem Computer gespeichert werden.
+                Als Verschlüsselungsgrundlage dient hier AES256</p>
+                <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
             </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="card-img-top pic-sleeping-sloth" src="working_people.jpg">
-                    <div class="card-body">
-                        <h4>Unsere Webseite</h4>
-                        <p class="card-text"> hier präsentieren wir unsere selbst entwickelte Webseite und das
-                        dazugehörige GitHub Repository. Die Webseite soll dazu dienen unsere Projekte zu präsentieren
-                        und uns eine Internetpräsenz außerhalb von GitHub aufzubauen. </p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" onclick="window.open('https://github.com/desch0612/lazydata_website','_blank')" class="btn btn-sm btn-outline-secondary">GitHub</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">ToDo-Liste</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Mit dieser ToDo-Liste werden Sie nichts mehr vergessen.Die Seite ist in JavaScript geschrieben und daher im Browser für Sie
+                jederzeit erreichbar. </p>
+                <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
             </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="card-img-top pic-sleeping-sloth" src="data.jpg">
-                    <div class="card-body">
-                        <h4>Datenvisualisierung</h4>
-                        <p class="card-text"> Hier entwickeln wir aktuell an einer Möglichkeit aktuelle Daten mit Bezug auf den
-                            Energieverbrauch in bestimmten Redionen Deutschlands anzuzeigen und zu visualisieren. Grundlage bildet hier
-                            Python und darin speziell Pandas und numpy</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" onclick="window.open('https://github.com/desch0612/lazydata_website','_blank')" class="btn btn-sm btn-outline-secondary">GitHub</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Chess Game</h5>
+                <p class="card-text">Ein bisschen Spaß muss sein! Daher haben wir in Python ein optisch schön ansprechendes Schach Spiel für Sie entwickelt.
+                Wie immer Open-Source und über GitHub einsehbar.</p>
+                <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
             </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Unsere Weibseite</h5>
+                <p class="card-text">Auch in unsere hier zu sehende Webseite haben wir viel Zeit und Herzblut gesteckt, um eine optisch ansprechende und
+                moderne Webseite zu entwickeln. Als Grundlage dienen hier HTML, CSS und JavaScript. </p>
+                <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
+            </div>
+        </div>
 
             <!-- Features -->
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
-                        <div>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
-                        <div>
-                        </div>
-                    </div>
+            <div class="col d-flex align-items-start">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+                <div>
                 </div>
             </div>
+            <div class="col d-flex align-items-start">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
             <div class="b-example-divider"></div>
             <div class="container px-4 py-5">
                 <h2 class="pb-2 border-bottom"> Was wir machen </h2>
@@ -142,7 +150,8 @@
                                     <use xlink:href="#collection" />
                                 </svg>
                             </div>
-                            <h4 class="fw-semibold mb-0"> search engine optimization </h4>
+                            <h4 class="fw-semibold mb-0"> Suchmaschinen-
+                                optmierung </h4>
                             <p class="text-muted"> Wir bringen Ihre Webseite nach vorne und bringen Sie im Suchmaschinen Ranking auf einen
                             sichtbaren Platz. </p>
                         </div>
@@ -155,8 +164,9 @@
                                 </svg>
                             </div>
                             <h4 class="fw-semibold mb-0"> Datenbankentwicklung </h4>
-                            <p class="text-muted"> Unsere Daten sollen in unserer Datenbank gespeichert werden. Daher nutzen
-                            wir MySQL und SQLite Datenbanken.</p>
+                            <p class="text-muted"> Benötigen Sie einen Datenbankserver oder allgemein eine IT-Infrastruktur?
+                            Wir können Ihnen gerne einen Server mit entsprechenden Services, wie Mail Clients, FTP oder Datenbank-
+                            Server einrichten. Die nötigen Sicherheitsbedingungen werden sicherlich auch von uns abgedeckt. </p>
                         </div>
 
                         <div class="d-flex flex-column gap-2">
