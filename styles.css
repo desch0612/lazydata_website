@@ -17,8 +17,10 @@ body{
 
     margin: 20px 20px 20px 20px;
     float: left;
+}
 
-
+.card-header{
+    position: center;
 }
 
 .pic-pw-manager{

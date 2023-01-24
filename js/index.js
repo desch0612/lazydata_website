@@ -1,42 +1,25 @@
 'use strict'
 
 /*Häufig gestellte Fragen: question 1*/
-document.addEventListener("DOMContentLoaded", () => {
-    const Button = document.getElementById('question_button1')
 
-    Button.addEventListener('click', () => {
-        /*Prevents the default case from being prevented*/
-        event.preventDefault()
-    })
-})
-
-/*question 2*/
-document.addEventListener('DOMContentLoaded', () =>{
-    const Button = document.getElementById('question_button2')
-
-    Button.addEventListener('click', () => {
-        /*Prevents the default case from being prevented*/
-        event.preventDefault()
-    })
-})
-
-/*question 3*/
 document.addEventListener('DOMContentLoaded', () => {
-    const Button = document.getElementById('question_button3')
+    const helpElements = document.querySelectorAll('[data-help]')
+    for(const helpElement of helpElements){
+        helpElement.addEventListener('click', (event) => {
+            event.preventDefault()
 
-    Button.addEventListener('click', () => {
-        /*Prevents the default case from being prevented*/
-        event.preventDefault()
-    })
-})
+            const helpText = helpElement.attributes[data-help].value
+            alert(helpText)
+        })
+    }
 
-/*The questions should be able to be folded in or out. That is what this function is for.*/
-document.addEventListener('DOMContentLoaded', () => {
     const cardHeaders = document.getElementsByClassName('card-header')
+
     for(const cardHeader of cardHeaders){
         cardHeader.addEventListener('click', (event) => {
+            const cardBody = cardHeader.nextElementSibling
 
-            cardbody.classList.add('d-none')
+            cardBody.classList.toggle('d-none')
 
         })
     }
