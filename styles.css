@@ -36,7 +36,6 @@ body{
 
     margin: 0px 0px 20px 20px;
     color: rgb(3, 55, 229);
-
 }
 
 
@@ -58,7 +57,8 @@ body{
 .sleeping_sloth{
     padding: 5px;
     width: 400px;
-    margin: auto
+    margin: auto;
+    float: left;
 }
 
 /* Picture of the sloth in the headline  */
@@ -69,13 +69,6 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     align-items: center;
-}
-
-/* the lazydata text above the impressum */
-.impressum_lazydata{
-    margin-top: 125px;
-    margin-left: 550px;
-    font-size: 30px;
 }
 
 /* first impressum (Kontakt)  */
@@ -99,5 +92,15 @@ body{
 /* help area */
 [data-help]{
     cursor: pointer;
+}
+
+/*the questions in the questions-area*/
+.questions{
+    font-size: 20px;
+}
+
+/* the text of the lazydata text in the navbar*/
+.text_navbar{
+    color: white;
 }
 
