@@ -104,3 +104,12 @@ body{
     color: white;
 }
 
+/*headline in the imprint*/
+.headline_imprint{
+    margin-top: 50px;
+    margin-left: 10px ;
+}
+
+.accordion_reference{
+    margin-top: 20px;
+}

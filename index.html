@@ -20,6 +20,7 @@
         <meta charset="UTF-8">
         <title>lazydata</title>
         <link rel = "stylesheet" type = "text/css" href="styles.css">
+        <link rel="icon" href="pictures/sloth.png" type="img/png"/>
     </head>
 <body>
 <br>
@@ -51,53 +52,45 @@
     <div class="row py-lg-5 text">
         <div class="col-lg-6 col-md-8 mx-auto text">
             <h1 class="fw-light text">lazydata</h1>
-            <p class="lead text-muted text"> Hi, wir sind Tobias u. Dennis und wir haben unser Hobby zum Beruf gemacht.
-                Wir programmieren für unser Leben gern und setzen ganz unterschiedliche Software-Projekte um, die wir
-                auf dieser Seite präsentieren wollen!
+            <img  class="programming_icon_left" src="icons/code.svg">
+            <p class="lead text-muted text"> Hi, wir sind Tobias und Dennis und wir lieben alles rund um die Informatik.
+                Wir lieben es zu programmieren und eigene Software-Projekte auf die Beine zu stellen. Darum
+                haben wir diese Seite entwickelt, um unsere Projekte zu präsentieren.
           </p>
+            <img  class="programming_icon_right" src="icons/code-slash.svg">
         </div>
     </div>
 </section>
 
 <!-- references -->
-<div class="album py-5 bg-dark">
-    <div class="b-example-divider"></div>
-    <div class="container px-4 py-5">
-        </div>
-    </div>
-
+<div class="b-example-divider"></div>
+<div class="container px-4 py-5">
 <h2 class="pb-2 border-bottom"> Referenzen </h2>
-<div class="card" style="width: 18rem; ">
-    <div class="card-body ">
-        <h5 class="card-title">Passwortmanager</h5>
-        <h6 class="card-subtitle mb-2 text-muted">absolut sicher!</h6>
-        <p class="card-text">Ein sicherer Passwortmanager, womit die Passwörter lokal auf dem Computer gespeichert werden.
-            Als Verschlüsselungsgrundlage dient hier AES256</p>
-        <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
-    </div>
-</div>
-
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-        <h5 class="card-title">ToDo-Liste</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Mit dieser ToDo-Liste werden Sie nichts mehr vergessen.Die Seite ist in JavaScript geschrieben und daher im Browser für Sie
-            jederzeit erreichbar. </p>
-        <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
-    </div>
-</div>
-
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-        <h5 class="card-title">Chess Game</h5>
-        <p class="card-text">Ein bisschen Spaß muss sein! Daher haben wir in Python ein optisch schön ansprechendes Schach Spiel für Sie entwickelt.
-            Wie immer Open-Source und über GitHub einsehbar.</p>
-        <a href="https://github.com/desch0612/password_manager" class="card-link">GitHub</a>
-    </div>
-</div>
-
-
-
+    <div class="accordion accordion_reference" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Passwort-Manager
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Das ist unser Passwort-Manager!</strong><p>Wir haben den Passwort-Manager in Python3 geschrieben und die Passwörter werden mittels AES256 verschlüsselt und in eine SQLite-Datenbank lokal gespeichert. </p> <a href="https://github.com/desch0612/password_manager"><img src="/icons/github.svg" alt="alternativer_text" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Unsere Webseite
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong> Das Herzstück! </strong><p> In unsere Webseite haben wir natürlich auch viel Herzblut gesteckt und Sie wird regelmäßig um weitere Projekte erweitert. Außerdem wird Sie optisch immer mal wieder verschönert.</p> <a href="https://github.com/desch0612/lazydata_website"><img src="/icons/github.svg" alt="alternativer_text" /></a>
+                </div>
+            </div>
+        </div>
             <!-- Features -->
             <div class="col d-flex align-items-start">
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
@@ -111,30 +104,12 @@
             </div>
         </div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
             <div class="b-example-divider"></div>
             <div class="container px-4 py-5">
                 <h2 class="pb-2 border-bottom"> Was wir machen </h2>
                 <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
                     <div class="d-flex flex-column align-items-start gap-2">
-                        <img class="sloth_bath" src="pictures/sloth_bath.png">
+                        <img class="sloth_bath" src="pictures/keyboard.jpg">
                     </div>
                     <div class="row row-cols-1 row-cols-sm-2 g-4">
                         <div class="d-flex flex-column gap-2">
@@ -190,33 +165,14 @@
                 </div>
             </div>
 
-        <!--FAQ-->
-        <div class="container">
-            <h1>Häufig gestellte Fragen</h1>
-            <details class = 'questions'>
-                <summary>Welche Technologien nutzt ihr?</summary>
-                <p>Wir arbeiten mit Python3, JavaScript, HTML, CSS und SQL. Zur Zusammenarbeit untereinander
-                nutzen wir git. Wir halten unsere Software, die wir schreiben auch immer auf dem neusten Stand
-                und erweitern diese ggf. um weitere Komponenten. </p>
-            </details>
-            <details class = 'questions'>
-                <summary>Warum diese Seite?</summary>
-                <p>Mit dieser Seite wollen wir uns ein Portfolio an Software-Projekten aufbauen und diese
-                hier präsentieren. Darüber hinaus wird alles auf GitHub veröffentlicht.</p>
-            </details>
-
-
-
             <!-- mission -->
+<div class="b-example-divider"></div>
+<div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom"> Unsere Mission </h2>
         <div class="b-example-divider"></div>
         <div class="container px-4 py-5">
-            <br>
-            <br>
             <script src="index.js"></script>
             <!-- image with sleeping sloth -->
-            <div class="d-flex flex-column align-items-start gap-2">
-                <img class="sleeping_sloth" src="pictures/sleeping_sloth.png">
-            </div>
             <p class = 'mission2'>
                 Unsere Leidenschaft ist die Informatik und die Möglichkeiten, die sich durch Ihr erschließen.
                 Wir haben beide Wirtschaftsinformatik studiert und haben nebenbei immer einige Projekte entwickelt. Irgendwann kam
@@ -229,6 +185,9 @@
                 Tier im Tierreich ist und damit perfekt als unser Maskottchen dient. Denn wir möchten Prozesse optimieren und den Computer arbeiten
                 lassen und das so effizient wie nur möglich. So können Sie sich entspannt zurück lehnen und den Computer die Arbeit machen lassen.
             </p>
+            <div class="d-flex flex-column align-items-start gap-2">
+                <img class="sleeping_sloth" src="pictures/sleeping_sloth.png">
+            </div>
             <!-- footer -->
             <div class="card text-center">
                 <div class="card-header">
