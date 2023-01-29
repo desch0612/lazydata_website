@@ -47,10 +47,10 @@ body{
 }
 
 /* Picture of the bathing sloth.  */
-.sloth_bath{
+.cpu{
 
     padding: 5px;
-    width: 400px;
+    width: 250px;
 }
 
 /* Picture of the sleeping sloth.  */
@@ -112,4 +112,8 @@ body{
 
 .accordion_reference{
     margin-top: 20px;
+}
+
+.mission2{
+    font-size: 20px;
 }
