@@ -1,4 +1,9 @@
 'use strict'
+import React from 'react'
+import ReaDOM from 'react-dom';
+import './styles.css';
+
+
 
 /*Häufig gestellte Fragen: question 1*/
 document.addEventListener('DOMContentLoaded', () => {
@@ -30,3 +35,27 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 })
+
+/* javascript jquery animations */
+function Welcome(props){
+    return<h1>Hello, {props.name}, {props.nachname}</h1>
+}
+
+const element = <Welcome name = "Dennis" nachname = "Schaefer" />;
+
+
+class Clock extends React.Component{
+    render(){
+        return(
+            <div>
+                <h1>Aktuelle Uhrzeit: newDate() </h1>
+            </div>
+        )
+    }
+
+}
+
+ReactDOM.render(
+    element,
+    document.getElementById('root')
+)

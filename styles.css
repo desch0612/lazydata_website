@@ -1,13 +1,8 @@
 /*This ist the first version to style the website "lazydata" */
 
-* {
-    box-sizing: border-box;
-}
 
 body{
-    font-family: roboto, sans-serif;
-    margin: 0;
-
+    font-family: "Helvetica";
 }
 
 /* =================== landing page ==============================*/
@@ -19,9 +14,6 @@ body{
     float: left;
 }
 
-.card-header{
-    position: center;
-}
 
 .pic-pw-manager{
     padding: 50px;
@@ -38,19 +30,11 @@ body{
     color: rgb(3, 55, 229);
 }
 
-
-/* small headline */
-.h5{
-
-    margin: 15px 15px 15px 20px;
-
-}
-
-/* Picture of the bathing sloth.  */
+/* Picture of the cpu-icon  */
 .cpu{
 
     padding: 5px;
-    width: 250px;
+    width: 150px;
 }
 
 /* Picture of the sleeping sloth.  */
@@ -110,10 +94,26 @@ body{
     margin-left: 10px ;
 }
 
+/* the accordion area*/
 .accordion_reference{
     margin-top: 20px;
 }
 
+/*mission area*/
 .mission2{
     font-size: 20px;
 }
+
+/*the profil picture*/
+.about_picture{
+    width: 300px;
+    margin: auto;
+}
+
+.github_icon{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+
