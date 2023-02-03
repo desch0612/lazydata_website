@@ -18,7 +18,7 @@
     <link rel="icon" href="pictures/sloth.png" type="img/png"/>
 </head>
 <body>
-<br>
+
 
 
 <!-- navbar -->
@@ -39,7 +39,6 @@
                 <a class="nav-link text_navbar" href="Datenschutzerklaerung.html">Datenschutz</a>
                 </li>
                 </ul>
-
             </div>
         </div>
     </div>
@@ -54,7 +53,7 @@
             <img class="programming_icon_left" src="icons/code.svg">
             <p class="lead text-muted text"> Hi, wir sind Tobias und Dennis und wir lieben alles rund um die Informatik.
                 Wir lieben es zu programmieren und eigene Software-Projekte auf die Beine zu stellen. Darum
-                haben wir diese Seite entwickelt, um unsere Projekte zu präsentieren.
+                haben wir diese Seite entwickelt, um uns ein Portfolio aufzubauen und unsere Projekte zu präsentieren.
             </p>
             <img class="programming_icon_left" src="icons/code-slash.svg">
         </div>
@@ -76,11 +75,13 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                  data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Mit dem AES256 lokal gespeicherte Passwörter.</strong> Dieser Passwortmanager verschlüsselt
+                    <strong>Mit AES256 verschlüsselte lokal gespeicherte Passwörter.</strong> Dieser Passwortmanager verschlüsselt
                     Ihre Passwörter und speichert diese lokal in eine SQLite-Datenbank auf Ihrem Rechner.
-                    Der Passwortmanager ist ausschließlich in Python geschrieben.
+                    Der Passwortmanager ist ausschließlich in Python geschrieben. Entwickelt wurde der PW-Manager, weil die
+                    Passwörter an keinen Drittanbieter übergeben werden sollten und lokal auf Ihrem Rechner gespeichert werden sollen.
+                    Denn Ihre Passwörter gehören nur Ihnen!
                 </div>
-                <image><img class="github_icon" src="icons/github.svg"></image>
+                <a href="https://github.com/desch0612/password_manager"><img class = "github_icon" src="icons/github.svg"></a>
             </div>
         </div>
         <div class="accordion-item">
@@ -93,10 +94,12 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                  data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Unser Herzstück!</strong> Unsere Webseite ist natürlich auch mit viel liebe gemacht! Als
-                    Programmiersprachen haben wir HTML, CSS und JavaScript verwendet.
+                    <strong>Unser Herzstück!</strong> Unsere Webseite ist natürlich auch mit viel Liebe gemacht! Als
+                    Programmiersprachen haben wir HTML, CSS und JavaScript verwendet. Die Webseite wird stetig weiter entwickelt und Sie ist
+                    lange noch nicht fertig. Aktuell wird Sie um die Bibliothek "react" erweitert und es sollen noch einige Animationen
+                    eingearbeitet werden.
                 </div>
-                <image><img class="github_icon" src="icons/github.svg"></image>
+                <a href="https://github.com/desch0612/lazydata_website"><img class = "github_icon" src="icons/github.svg"></a>
             </div>
         </div>
         <div class="accordion-item">
@@ -109,10 +112,11 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                  data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Lösen eines Ablaufplanungsproblems mit multiplen Operationen</strong> Dieses Programm
-                    berechnet den optimalen Ablaufplan. Das Problem ist auch als Scheduling-Problem bekannt.
+                    <strong>Einsatz eines Branch & Bound-Verfahrens zur Lösung eines Ablaufplanungsproblems mit multiplen Operationen pro Auftrag und
+                    reihenfolgeabhängigen Rüstzeiten. </strong> Dieses Programm ist im Zuge meiner Bachelorarbeit entstanden und löst ein spezifisches Ablaufplanungsproblem
+                    durch den Einsatz des Branch & Bound-Verfahrens. Auch dieses Programm ist in Python entwickelt worden.
                 </div>
-                <image><img class="github_icon" src="icons/github.svg"></image>
+                <a href="https://github.com/desch0612/Bachelorarbeit"><img class = "github_icon" src="icons/github.svg"></a>
             </div>
         </div>
     </div>
@@ -130,9 +134,9 @@
                             <use xlink:href="#collection"/>
                         </svg>
                     </div>
-                    <h4 class="fw-semibold mb-0"> Suchmaschinenoptimierung </h4>
-                    <p class="text-muted"> Internetseiten, die im Suchmaschinen-Ranking zuweit hinten sind, werden nicht
-                        beachtet. Wir bringen Webseiten ganz nach vorne.
+                    <h4 class="fw-semibold mb-0"> SEO </h4>
+                    <p class="text-muted"> Durch Suchmaschinenoptimierung (SEO) setzen wir die technischen Maßnahmen um, die Rankings der Webseite zu verbessern, um die
+                        Sichtbarkeit in den Ergebnislisten der Suchmaschinen zu optimieren.
                     </p>
                 </div>
 
@@ -144,11 +148,9 @@
                         </svg>
                     </div>
                     <h4 class="fw-semibold mb-0"> Datenbankentwicklung </h4>
-                    <p class="text-muted"> Benötigen Sie einen Datenbankserver oder allgemein eine IT-Infrastruktur?
-                        Wir können Ihnen gerne einen Server mit entsprechenden Services, wie Mail Clients, FTP oder
-                        Datenbank-
-                        Server einrichten. Die nötigen Sicherheitsbedingungen werden sicherlich auch von uns
-                        abgedeckt. </p>
+                    <p class="text-muted"> Ob einen MySQL Server oder eine kleine SQLite-Datenbank. Wir haben unseren eigenen Server, worauf wir unsere
+                    Dienste, wie FTP, Mail, Web und auch die Datenbanken nutzen. So können wir transparent und unabhängig an unseren Projekten arbeiten, ohne
+                    von anderen Anbietern abhängig zu sein. </p>
                 </div>
 
                 <div class="d-flex flex-column gap-2">
@@ -159,10 +161,9 @@
                         </svg>
                     </div>
                     <h4 class="fw-semibold mb-0">Webentwicklung</h4>
-                    <p class="text-muted"> Wir bauen leidenschaftlich gerne Webseiten wie diese hier und möchten das
-                        auch in Zukunft
-                        mit den aktuellen Technologien tun. Damit wir das Internet ein kleinwenig schöner gestalten
-                        können. </p>
+                    <p class="text-muted"> Das Internet hat sich in den letzten Jahren stark gewandelt und statische standard Webseiten sind heute nicht mehr gefragt.
+                    Stattdessen brauch es heute schöne Animationen, welche den Inhalt der Webseite gut und schnell widerspiegeln. Wir wollen unseren Teil dazu beitragen und
+                    mithilfe von JavaScrip (react) schöne Webseiten entwickeln und optimieren. </p>
                 </div>
 
                 <div class="d-flex flex-column gap-2">
@@ -173,9 +174,8 @@
                         </svg>
                     </div>
                     <h4 class="fw-semibold mb-0"> Individualsoftware </h4>
-                    <p class="text-muted"> Wir überlegen uns zusätzlich wie wir bestimmte Probleme lösen können und
-                        bauen uns
-                        eigene Individualsoftware. </p>
+                    <p class="text-muted"> Die größte Herausforderung ist es eine individuelle Software zu schreiben, auf ein individuellen Problem, wie das zuvor beschriebene
+                    Ablaufplanungsproblem. Doch genau diese Herausforderung treibt uns an, um uns immer wieder zu verbessern und die technisch neusten Anwendungen umzusetzen. </p>
                 </div>
             </div>
         </div>
@@ -199,15 +199,13 @@
                 präsentieren.
                 Alles kostenlos und OpenSource!
                 <br><br>
-                Darüber hinaus möchten wir den Computer arbeiten lassen und alltägliche Dinge vereinfachen. Zum Beispiel
-                soll der Passwortmanager
-                ein alltäglicher Begleiter sein, so das nicht ein Standardpasswort benutzt werden muss. Die Prozesse
-                sollen automatisiert und vereinfacht werden.
-                So wie es das effizienteste Lebewesen (Das Faultier) auch tut!
+                Darüber hinaus bieten uns diese Projekte die Möglichkeit an den praktischen Aufgaben zu lernen und unser Know-How zu erweitern.
+                Zusätzlich können Sie sich unser Portfolio auf GitHub anschauen, welche wir hier für Sie verlinkt haben:
+                <br><br>
+                Dennis Schäfer:
+                <br><br>
+                <a href="https://github.com/desch0612/password_manager"><img class = "github_icon" src="icons/github.svg"></a>
             </p>
-            <div class="d-flex flex-column align-items-start gap-2">
-                <img class="sleeping_sloth" src="pictures/sleeping_sloth.png">
-            </div>
             <!-- footer -->
             <style>
                 .card {
