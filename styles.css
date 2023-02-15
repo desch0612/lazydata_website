@@ -14,15 +14,6 @@ body{
     float: left;
 }
 
-
-.pic-pw-manager{
-    padding: 50px;
-}
-
-.pic-sleeping-sloth{
-    padding: 30px 10px;
-}
-
 /* first headline*/
 .h1{
 
@@ -30,13 +21,6 @@ body{
     color: rgb(3, 55, 229);
 }
 
-/* Picture of the sleeping sloth.  */
-.sleeping_sloth{
-    padding: 5px;
-    width: 400px;
-    margin: auto;
-    float: left;
-}
 
 /* Picture of the sloth in the headline  */
 .sloth{
