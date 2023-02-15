@@ -30,13 +30,6 @@ body{
     color: rgb(3, 55, 229);
 }
 
-/* Picture of the cpu-icon  */
-.cpu{
-
-    padding: 5px;
-    width: 150px;
-}
-
 /* Picture of the sleeping sloth.  */
 .sleeping_sloth{
     padding: 5px;
@@ -122,10 +115,32 @@ body{
 
 .footer_new{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
 
 }
 
+.atom{
+    height: 100px;
+    width: 100px;
+
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .atom{
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
 /* Cookie Banner */
 #cookieConsent {
