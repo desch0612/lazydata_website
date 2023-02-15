@@ -206,9 +206,28 @@
                 Alles kostenlos und OpenSource!
                 <br><br>
             </p>
+            <!--atom-->
+            <style>
+            @media (prefers-reduced-motion: no-preference){
+                .atom{
+                animation: App-logo-spin infinite 20s linear;
+            }
+            }
+
+            @keyframes App-logo-spin {
+            from{
+            transform: rotate(0deg);
+            }
+            to{transform: rotate(360deg);
+            }
+            }
+            </style>
+
+
             <div>
                 <img class="atom" src="icons/atom.png">
             </div>
+
             <!-- footer / cookie banner -->
             <div class = "footer_new" >
                 <div class="card-header">
@@ -231,7 +250,39 @@
                     Verstanden
                 </div>
             </div>
-            <!-- cookie banner -->
+            <style>
+
+                /* Cookie Banner */
+                #cookieConsent {
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 9999;
+                }
+
+                #cookieConsentMessage {
+                    font-size: 14px;
+                    margin: 0;
+                }
+
+                #cookieConsentButton {
+                    background-color: #fff;
+                    border: 1px solid #000;
+                    border-radius: 4px;
+                    color: #000;
+                    cursor: pointer;
+                    padding: 10px 14px;
+                    text-align: center;
+                }
+            </style>
+
             <script>
                 window.addEventListener("load", function() {
                     const cookieConsentButton = document.getElementById("cookieConsentButton");
