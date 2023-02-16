@@ -206,36 +206,39 @@
                 Alles kostenlos und OpenSource!
                 <br><br>
             </p>
+
+
             <!--atom-->
             <style>
-            @media (prefers-reduced-motion: no-preference){
+                @media (prefers-reduced-motion: no-preference){
+                    .atom{
+                        animation: App-logo-spin infinite 20s linear;
+                    }
+                }
+
+                @keyframes App-logo-spin {
+                    from{
+                        transform: rotate(0deg);
+                    }
+                    to{transform: rotate(360deg);
+                    }
+                }
+
                 .atom{
-                animation: App-logo-spin infinite 20s linear;
-            }
-            }
+                    margin-top: 5px;
+                    margin-bottom: 90px;
+                    margin-left: 550px;
+                    height: 100px;
+                    width: 100px;
 
-            @keyframes App-logo-spin {
-            from{
-            transform: rotate(0deg);
-            }
-            to{transform: rotate(360deg);
-            }
-            }
+                }
 
-            .atom{
-                height: 100px;
-                width: 100px;
-                display: block;
-                margin-top: 20px;
-                margin-left: 550px;
-                margin-bottom: 10px;
-            }
             </style>
-
 
             <div>
                 <img class="atom" src="icons/atom.png">
             </div>
+
 
             <!-- footer / cookie banner -->
             <div class = "footer_new" >
